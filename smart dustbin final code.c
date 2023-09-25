@@ -71,7 +71,7 @@ void sendSMS(String Text) {
   updateSerial();
   mySerial.println("AT+CMGF=1"); 
   updateSerial();
-  mySerial.println("AT+CMGS=\"+919487440988\""); // enter your phone number here (prefix country code)
+  mySerial.println("AT+CMGS=\"+917448373370\""); // enter your phone number here (prefix country code)
   updateSerial();
   mySerial.print(Text); // enter your message here
   updateSerial();
